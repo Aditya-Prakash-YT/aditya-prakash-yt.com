@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <link defer rel="stylesheet"href="ind.style.css">
+    <link defer rel="icon"href="Img(s)/favicon.ico">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="theme-color"content="black">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <meta name="description"content="adityaprakashYT">
+        <title>Aditya Prakash YT</title>
+    </head>
+    <body onload="removeLoader()">
+        <div id="loader"></div>
+        <div id="progressbar"></div>
+        <header class="nav-bar">
+            <a href="/"><img defer class="logo"src="Img(s)/logo.png"alt="loading..."></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#sec-b">Projects</a></li>
+                    <li><a href='#sec-c'>Follow-Me</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCIJF8t1WzTWG8RbYpz9rzTA?sub_confirmation=1">YouTube Channel</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sec-a"id="sec-a">
+            <div class="transparent-info">
+                <h1>Who Am I -</h1>
+                <p>I'm Aditya Prakash,</p>
+                <p>A Student of Grade-8, from Open Minds - A Birla School Patna, Bihar and I live in India.</p>
+                <p>I also have a YouTube Channel where I upload videos about coding</p>
+                <div>
+                    <br/>
+                    <br/>
+                    <p>Subscribe me on YouTube -</p>
+                    <div class="request">
+                        <a href="https://www.youtube.com/channel/UCIJF8t1WzTWG8RbYpz9rzTA?sub_confirmation=1"><img defer class="ytlogo"src="Img(s)/logo-y.png"alt="loading ..."></a>
+                        <h2>Aditya Prakash YT</h2>
+                        <a href="https://www.youtube.com/channel/UCIJF8t1WzTWG8RbYpz9rzTA?sub_confirmation=1"><img defer class="sub-logo"src="Img(s)/sub.png"alt="loading ..."></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-b"id="sec-b">
+            <div class="transparent-info">
+                <h1>Projects -</h1>
+                <p>Although I've made many Games, web apps and Websites in HTML, CSS and javaScript using p<sub>5</sub>.js, p<sub>5</sub>.play.js and uploaded them on Git-Hub, But I'm currently learning to make native mobile apps</p>
+                <p>I want you all to Check out my Games and Projects on Git-Hub</p>
+                <br/>
+                <br/>
+                <div>
+                    <p>Follow me on Git-Hub -</p>
+                    <div class="request">
+                        <p></p>
+                        <p></p>
+                        <a href="https://github.com/Aditya8Prakash">
+                            <img defer class="git-logo"src="Img(s)/github-logo.png"alt="loading ....">
+                        </a>
+                        <a href="https://github.com/Aditya8Prakash">
+                            <h2>/ Aditya8Prakash</h2>
+                        </a>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-c"id="sec-c">
+            <div class="follow-me">
+                    <h1>Follow Me :</h1>
+                <div class="media">
+                    <a href="https://www.youtube.com/channel/UCIJF8t1WzTWG8RbYpz9rzTA?sub_confirmation=1">
+                        <img defer class="f-logo"src="Img(s)/youtube.png"alt="loading ....">
+                        <p>
+                            Subscribe me on YouTube
+                        </p>
+                    </a>
+                </div>
+                <div class="media">
+                    <a href="https://github.com/Aditya8Prakash">
+                        <img defer class="f-logo"src="Img(s)/github-logo.png"alt="loading ....">
+                        <p>
+                            Follow me on Git-Hub
+                        </p>
+                    </a>
+                </div>
+                <div class="media">
+                    <a href="https://discord.gg/SxGJUX">
+                        <img defer class="f-logo"src="Img(s)/discord.png"alt="loading ....">
+                        <p>
+                            Join my Discord Server
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="up">
+            <a href="#sec-a"class="top">↑</a>
+        </div>
+        <script>
+            var loader=document.getElementById('loader'),progerssBar=document.getElementById('progressbar'),totalHeight=document.body.scrollHeight-window.innerHeight;
+            removeLoader=()=>loader.style.display='none';
+            window.onscroll=()=>progerssBar.style.height=((window.pageYOffset/totalHeight)*100)+6+'%';
+        </script>
+    </body>
+</html>
