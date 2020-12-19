@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*,*::before,*::after{
+    font-family: "Montserrat",sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#loader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: url('Img(s)/loader.gif') #fff no-repeat center;
+    z-index: 99;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+}
+::-webkit-scrollbar{display: none;}
+#progressbar{
+    position: fixed;
+    top: -15px;
+    right: 0;
+    width: 10px;
+    background:cyan;
+    z-index: 98;
+    box-shadow: 0 0 25px cyan;
+    border-radius: 5px;
+    height: 6%;
+}
+.nav-bar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.281);
+    justify-content: space-between;
+    padding: 10px 2%;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    z-index: 97;
+    box-shadow: 0 0 60px rgb(0, 0, 0)
+}
+.logo{
+    height: 70px;
+    cursor: pointer;
+}
+.nav-bar a,li {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+.nav__links li:hover{
+    transition-duration: 0.25s;
+    background-color: rgba(255, 255, 255, 0.178);
+}
+.nav__links li:hover a{color: cyan;}
+.sec-a{
+    padding: 0px 100px;
+    height: 1080px;
+    color: white;
+    align-items: center;
+    display: flex;
+    background: url('Img(s)/sec-a.jpg');
+}
+.transparent-info{
+    position: relative;
+    width:750px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.082);
+    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 35px;
+}
+.transparent-info h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.transparent-info p{font-size: 20px;}
+.sub-logo{
+    height: 50px;
+    transform: scale(0.9);
+}
+.transparent-info h2{
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+}
+.request{
+    background: rgba(255, 255, 255, 0.212);
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.76);
+}
+.sec-b{
+    padding: 0px 100px;
+    height: 962px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    background: url('Img(s)/sec-b.jpg');
+}
+.git-logo{height: 100px;}
+a{text-decoration: none;}
+.sec-c{
+    padding: 0px 100px;
+    height: 1080px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: url('Img(s)/sec-c.jpg');
+}
+.follow-me{
+    position: relative;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.109);
+    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 50px;
+    color: black;
+}
+.media{align-self: center;}
+.media a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.171);
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+.f-logo{height: 100px;}
+.media p{font-size: 25px;}
+.media a:hover{
+    transition-duration: 0.45s;
+    transform: scale(1.25);
+    background: rgba(255, 255, 255, 0.424);
+    border-radius: 15px;
+    backdrop-filter: blur(1px);
+}
+.follow-me h1{
+    font-size: 40px;
+    color: white;
+}
+.up{
+    transition-duration: 0.30s;
+    position: fixed;
+    top: 98%;
+    left: 99%;
+    transform: translate(-100%,-100%);
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.65);
+}
+.top{
+    color: white;
+    font-size: 90px;
+}
+.up:hover .top{
+    color: cyan;
+    transition-duration: 0.35s;
+}
+.up:hover{
+    background: rgba(255, 255, 255, 0.253);
+    transition-duration: 0.5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+}
